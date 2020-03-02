@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Train Time</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- first row -->
+        <div class="jumbotron">
+
+            <div class="col-md-12">
+                <h1 style="text-align:center;">Anytime Is Train Time</h1>
+                <p style="text-align:center;">Choo Choo Chee Chee</p>
+            </div>
+
+
+        </div>
+
+
+        <!-- second row, table -->
+        <div class="card">
+            <div class="card-header">
+                Current Train Schedule
+            </div>
+
+            <div class="col-md-12">
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Train Name</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">Frequency (min)</th>
+                            <th scope="col">Next Arrival</th>
+                            <th scope="col">Minutes Away</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>@mdo</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- third row, form -->
+        <div class="card">
+            <div class="card-header">
+                Add Train
+            </div>
+
+            <div class="col-md-12">
+
+                <form>
+                    <div class="form-group">
+                        <label for="trainNameInput">Train Name</label>
+                        <input type="text" class="form-control" id="trainNameInput">
+                    </div>
+                    <div class="form-group">
+                        <label for="destinationInput">Destination</label>
+                        <input type="text" class="form-control" id="destinationInput">
+                    </div>
+                    <div class="form-group">
+                        <label for="timeInput">First Train Time</label>
+                        <input type="time" class="form-control" id="timeInput">
+                    </div>
+                    <div class="form-group">
+                        <label for="frequencyInput">Frequency (min)</label>
+                        <input type="integer" class="form-control" id="frequencyInput">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </form>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

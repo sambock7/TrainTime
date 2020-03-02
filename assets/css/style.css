@@ -1,0 +1,18 @@
+.card-header {
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+
+.jumbotron {
+    background-color: blue;
+    color: white;
+}
+
+.btn {
+
+    margin: 0px 0px 10px 0px;
+}
+
+.card {
+    margin: 0px 0px 40px 0px;
+}
